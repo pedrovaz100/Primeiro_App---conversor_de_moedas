@@ -13,7 +13,7 @@ export default function App() {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
     >
 
-      <ScrollView style= {styles.scrollView}>
+      <ScrollView style={styles.scrollView}>
 
 
         <View style={styles.content}>
@@ -31,8 +31,8 @@ export default function App() {
 
           <View style={styles.card}>
             <Text style={styles.label}>De:</Text>
-            <View>
-              {currencies.map(currency =>(
+            <View style={styles.currencyGrid}>
+              {currencies.map(currency => (
                 <Button variant='primary'
                   key={currency.code}
                   currency={currency}
@@ -42,12 +42,7 @@ export default function App() {
                 </Button>
               ))}
 
-
-              <Button variant='primary'></Button>
-
-
             </View>
-            <Button variant='secondary'></Button>
 
           </View>
 
