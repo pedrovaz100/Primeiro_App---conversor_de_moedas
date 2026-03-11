@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, KeyboardAvoidingView, Platform, ScrollView } fr
 import { Button } from './src/components/Button';
 import { styles } from './App.styles'
 import { currencies } from './src/constants/currencies';
+import {TextInput} from '/src/components/Input'
+import { Input } from './src/components/Input'
 
 
 
@@ -43,6 +45,7 @@ export default function App() {
                 </Button>
               ))}
 
+              <Input/>
              
             </View>
 
