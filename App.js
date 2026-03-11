@@ -6,6 +6,7 @@ import { currencies } from './src/constants/currencies';
 
 
 
+
 export default function App() {
   return (
     <KeyboardAvoidingView
@@ -42,6 +43,7 @@ export default function App() {
                 </Button>
               ))}
 
+             
             </View>
 
           </View>

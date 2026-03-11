@@ -22,11 +22,12 @@ export const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: 'bold',
     color: colors.text,
-    marginBottom: 8,
+    marginBottom: 5,
   },
   subTitle: {
     color: colors.textSecondary,
     fontSize: 16,
+    marginBottom: 23
   },
   card: {
     backgroundColor: colors.cardBackground,
@@ -43,7 +44,9 @@ currencyGrid:{
   flexDirection: 'row',
   flexWrap: 'wrap',
   marginHorizontal: -4,
-  marginBottom: 16
+  marginBottom: 12,
+  alignItems: 'center',
+  justifyContent: 'center'
 }
 
 });
